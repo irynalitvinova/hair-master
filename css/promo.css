@@ -16,7 +16,6 @@
 .promo-title {
   font-size: 60px;
   line-height: 72px;
-  padding-top: 50px;
 }
 
 .promo-button {
@@ -25,7 +24,7 @@
 
 .promo-image {
   display: block;
-  height: 460px;
+  height: 420px;
   width: 470px;
   object-position: center 30%;
 }
