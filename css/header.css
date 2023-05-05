@@ -1,0 +1,139 @@
+.header {
+  padding-top: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-wrapper {
+  display: flex;
+  column-gap: 100px;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.menu-link {
+  transition: all 0.5s;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+/* burger menu */
+.navigation-burger {
+  width: 24px;
+  border: none;
+  background-color: transparent;
+  padding: 8px 0;
+  position: relative;
+  display: none;
+  z-index: 10;
+  transition: all 0.5s;
+}
+
+.navigation-burger::after,
+.navigation-burger::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: var(--main-text-color);
+  transition: all 0.5s;
+}
+
+.navigation-burger span {
+  display: block;
+  height: 1px;
+  background-color: var(--main-text-color);
+  transform: scale(1);
+}
+
+.navigation-burger::after {
+  bottom: 0;
+}
+
+.navigation-burger::before {
+  top: 0;
+}
+
+.navigation-burger.active span {
+  transform: scale(0);
+}
+
+.navigation-burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+.navigation-burger.active::after {
+  bottom: 40%;
+  transform: rotate(45deg);
+}
+
+/* end burger menu */
+
+@media (max-width: 991.98px) {
+  body.lock {
+    overflow: hidden;
+  }
+
+  .navigation-burger {
+    display: block;
+  }
+
+  .header-container {
+    position: relative;
+  }
+
+  .navigation-wrapper {
+    position: fixed;
+    top: -100%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color-accent);
+    z-index: 2;
+    transition: top 0.5s ease-in;
+    padding: 15px 24px 50px 24px;
+    transition: top 0.5s ease-in 0.1s;
+    overflow: hidden;
+    margin: auto;
+    flex-direction: column;
+
+  }
+
+  .navigation-wrapper.active {
+    top: 0;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    z-index: -1;
+    padding-top: 100px;
+    margin-bottom: 10px;
+  }
+
+  .header-logo {
+    z-index: 100;
+  }
+}
+
+@media (max-width: 767.98px) {}

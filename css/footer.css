@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--main-text-color);
+  color: var(--alternate-text-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-divider-line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--alternate-text-color);
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-social-link .logo_2gS {
+  fill: var(--alternate-text-color);
+}
+
+@media (max-width: 479.98px) {
+  .footer-top {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}

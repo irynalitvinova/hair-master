@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Rubik', sans-serif;
+  --main-text-color: #211F1C;
+  --alternate-text-color: #fff;
+  --brand-color: #8C4B77;
+  --background-color-accent: #f9f6f1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+body {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+  color: var(--main-text-color);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-style: italic;
+  color: var(--brand-color);
+  margin-bottom: 20px;
+}
+
+.title-item {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.section-description {
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-link svg {
+  width: 30px;
+  height: 30px;
+}
+
+.social-link path {
+  transition: fill 0.5s;
+}
+
+.social-link:hover path {
+  fill: var(--brand-color);
+}
+
+.button {
+  padding: 15px 40px 17px;
+  color: var(--alternate-text-color);
+  background-color: var(--brand-color);
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: var(--main-text-color);
+}
+
+@media (max-width: 767.98px) {
+  .section-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 37px;
+  }
+}
