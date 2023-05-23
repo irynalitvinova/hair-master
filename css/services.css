@@ -1,0 +1,33 @@
+.services {
+  text-align: center;
+}
+
+.services-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.services-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.services-item-description {
+  text-align: left;
+}
+
+.services-item-title {
+  padding-bottom: 10px;
+}
+
+.services-item-text {
+  color: var(--brand-color);
+}
+
+@media (max-width: 767.98px) {
+  .services-items {
+    grid-template-columns: 1fr;
+  }
+}
