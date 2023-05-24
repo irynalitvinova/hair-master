@@ -57,6 +57,7 @@
 .form-input[type=date] {
   color: #A09F9E;
   font-size: 14px;
+  padding: 12px 20px 13px;
 }
 
 .form-input--message {
