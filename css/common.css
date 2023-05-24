@@ -152,4 +152,8 @@ body {
     font-size: 32px;
     line-height: 37px;
   }
+
+  .section-description {
+    margin-bottom: 30px;
+  }
 }
