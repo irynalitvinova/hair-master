@@ -1,0 +1,36 @@
+.reviews {
+  text-align: center;
+}
+
+.reviews-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.reviews-item {
+  background-color: rgba(249, 246, 241, 0.5);
+  padding: 50px 10px;
+}
+
+.reviews-item-img {
+  padding-bottom: 30px;
+}
+
+.reviews-item-title {
+  padding-bottom: 20px;
+}
+
+.reviews-item-text {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .reviews-items {
+    grid-template-columns: 1fr;
+  }
+
+  .reviews-item {
+    padding: 20px 20px;
+  }
+}
