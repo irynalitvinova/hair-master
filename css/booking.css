@@ -57,8 +57,11 @@
 .form-input[type=date] {
   -webkit-appearance: none;
   appearance: none;
+  height: 100%;
   color: #A09F9E;
   font-size: 14px;
+  padding: 12px 20px 13px;
+  box-flex-group: #fff;
 }
 
 .form-input--message {
