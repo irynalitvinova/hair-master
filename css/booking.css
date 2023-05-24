@@ -33,7 +33,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 
 .form-input {
@@ -65,7 +64,7 @@
 
 .form-input[type=date]::before {
   font-family: 'Rubik', sans-serif;
-  content: "Choose a date";
+  content: "Date*";
   color: #A09F9E;
   font-size: 14px;
   padding-right: 10px;
