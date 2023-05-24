@@ -79,17 +79,9 @@ body {
   padding-bottom: 100px;
 }
 
-.title {
-  font-family: 'Playfair Display', serif;
-  font-size: 40px;
-  line-height: 44px;
-  font-weight: 500;
-  color: var(--main-text-color);
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
 
-.subtitle {
+
+.section-title {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   line-height: 32px;
@@ -98,6 +90,16 @@ body {
   margin-bottom: 20px;
 }
 
+.subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+  color: var(--main-text-color);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+/**/
 .title-item {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
@@ -148,7 +150,7 @@ body {
     padding-bottom: 50px;
   }
 
-  .title {
+  .subtitle {
     font-size: 32px;
     line-height: 37px;
   }
