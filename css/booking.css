@@ -55,13 +55,19 @@
 }
 
 .form-input[type=date] {
-  -webkit-appearance: none;
-  appearance: none;
-  /* height: 100%; */
-  color: #A09F9E;
+   /* -webkit-appearance: none;
+  appearance: none;  */
+   color: #A09F9E;
   font-size: 14px;
-  /* padding: 12px 20px 13px;
-background-color: #fff; */
+  padding: 12px 20px 13px;
+  background-color: #fff;
+}
+.form-input[type=date]::before{
+  font-family: 'Rubik', sans-serif;
+ content: "Choose a date";
+ color: #A09F9E;
+ font-size: 14px;
+ padding-right: 10px;
 }
 
 
