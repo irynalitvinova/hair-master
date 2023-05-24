@@ -15,6 +15,13 @@
 }
 
 .form-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+  color: var(--main-text-color);
+  margin-bottom: 30px;
+  text-transform: uppercase;
   text-align: center;
 }
 
