@@ -75,10 +75,7 @@
   overflow: hidden;
   resize: none;
 }
-.form-button {
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-}
+
 @media (max-width: 767.98px) {
   .form-inner {
     width: 440px;
