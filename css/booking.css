@@ -71,6 +71,10 @@
     width: 440px;
     padding: 30px 30px;
   }
+  .form-title {
+    font-size: 32px;
+    line-height: 37px;
+  }
 }
 
 @media (max-width: 479.98px) {
