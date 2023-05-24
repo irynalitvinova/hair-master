@@ -34,7 +34,7 @@
   width: 470px;
   object-position: center top;
   background-color: var(--brand-color);
-  box-shadow: 30px 30px 120px var(--brand-color);
+  box-shadow: 30px 30px 120px -20px var(--brand-color);
 }
 
 @media (max-width: 767.98px) {
