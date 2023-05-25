@@ -57,4 +57,8 @@
   .promo-image {
     height: 380px;
   }
+  .promo-button {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
 }
