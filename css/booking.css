@@ -39,6 +39,7 @@
   padding: 12px 20px 13px;
   color: var(--main-text-color);
   font-size: 14px;
+  width: 100%;
 }
 
 .form-input:focus {
@@ -49,25 +50,17 @@
 
 .form-input::placeholder {
   font-family: 'Rubik', sans-serif;
-  color: #A09F9E;
   font-size: 14px;
+  color: #767676;
+  opacity: 1;
 }
 
 .form-input[type=date] {
   -webkit-appearance: none;
   appearance: none;
-  color: #A09F9E;
   font-size: 14px;
   padding: 12px 20px 13px;
   background-color: #fff;
-}
-
-.form-input[type=date]::before {
-  font-family: 'Rubik', sans-serif;
-  content: "Date*";
-  color: #A09F9E;
-  font-size: 14px;
-  padding-right: 10px;
 }
 
 .form-input--message {
